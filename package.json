@@ -1,0 +1,32 @@
+{
+  "name": "targil_1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/talgohar/targil_1#readme",
+  "bugs": {
+    "url": "https://github.com/talgohar/targil_1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talgohar/targil_1.git"
+  },
+  "license": "ISC",
+  "author": "talgo",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon app.ts",
+    "start": "ts-node app.ts"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
